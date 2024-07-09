@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AasthaShettyPortfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">POR</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#achiev">Achievments</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Aastha Shetty</h1>
+            <p>
+                I am a Pre-Final year student at IIT BHU. I am 20 yrs old.
+                I am currently Secretary @ Business Club, IIT BHU.
+            </p>
+            <br>
+            <p>I am eager to explore opportunities that blend Tech and Product, 
+                allowing me to leverage my technical expertise and product management skills.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/shettyaastha"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/aastha09_02/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/aastha-shetty-4bb85824a/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1-a2oIZvAbVCzD9O53lP7PjBncXqDWIfs/view?usp=drive_link" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">            
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Aastha.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/aas.jpg"  alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                I, Aastha Shetty, am a multifaceted individual having a passion for extracurricular activities.
+            </h3>
+            <p>I am a trained Bharatnatyam dancer, dedicating years to mastering this classical art form. Additionally, I am a district-level basketball player, showcasing my commitment to sports and teamwork. Leadership has been a constant in my life, from serving as School Prefect and House Captain during my school years to my active participation in various college committees.
+            </p>
+            <p>In my leisure time, I indulge in my guilty pleasure—watching MTV shows like Roadies and Splitsvilla. These shows not only entertain me but also inspire my adventurous and competitive spirit.
+                My diverse experiences and interests shape me into a well-rounded individual, eager to bring my unique perspective and enthusiasm to every endeavor.</p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading about me. If you want to discuss, you can send me a message. I'd love to hear from you.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Position of Responsibility</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <img src="data:image/png;base64,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" width="230" height="230" alt="">
+                <h3>Student's Parliament</h3>
+                <h4>Member</h4>
+                <p>Elected among over 15,000 students to join the Security Committee, demonstrating exceptional leadership skills
+                    Conceptualized and managed security for Kashiyatra'24 and Technex' 24.</p>
+            </div>
+            <div class="services-box">
+                <img src="https://media.licdn.com/dms/image/D4D0BAQFID4y7VqI36Q/company-logo_200_200/0/1665177916507?e=2147483647&v=beta&t=gnBmehv1H7FG9l5ZwymenGUflk_og5TSj7eu8E4hWzA" width="230" height="230" alt="">
+                <h3>Business Club, IIt BHU</h3>
+                <h4>Secreatary</h4>
+                <p> Conducted 3+ upskilling sessions on Product Management and served as a mentor for over 100 freshers
+                    Volunteered in designing and content of Casebook 4.0 a valuable resource accessed by students from IITs & IIMs.</p>
+            </div>
+            <div class="services-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKH_x9iZp93NYdYtJ-76QUTLflq6BTFZ5uQtK9u1qRHecCJkqZ2wOfNpvuVHb30_lMILE&usqp=CAU" width="230" height="230" alt="">
+                <h3>HULT Prize</h3>
+                <h4>Organizing Team Member</h4>
+                <p> Secured 3 keynote speakers and judges from Forbes 40 under 40 and Top Sustainability Voices on LinkedIn
+                    Organized a highly successful HULT Prize on-campus event with 40+teams.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Zomato</h4>
+                    <h2>PMx-IIT Guwahati</h2>
+                    <p>Increasing the average no. of daily, weekly, monthly order for Zomato, targeting mainly working professionals </p>
+                    <a href="https://drive.google.com/file/d/1mhUgstZnd_44QAayLyPjMXwFLM5LASeK/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://media.licdn.com/dms/image/D4D0BAQGIx0OEUqV0yg/company-logo_200_200/0/1701718434906/share_iit_bhu_logo?e=1728518400&v=beta&t=xfnEIeJ2Mgidb0DFcB9mgIsuKovDMJq_PF1oIISlFzU" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>FLP IIT BHU</h4>
+                    <h2>Strategic Presentation</h2>
+                    <p>How can Sub Saharan countries leverage on technical and financial Solution for</p>
+                    <a href="https://drive.google.com/file/d/1yL3j18m5D197AeK6ZxfFrCuKRTxl7OgJ/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://www.frontiersin.org/files/Articles/858126/fnins-16-858126-HTML-r1/image_m/fnins-16-858126-g001.jpg"alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Blood Brain Permeability</h4>
+                    <p>Improved Classification of Blood-Brain-Barrier Drugs Using Machine learning</p>
+                    <a href="https://drive.google.com/file/d/1ocV5CnIGh2V3fHAmQxMRuO_eg3noTM9t/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="data:image/jpeg;base64,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" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>E-cell IIT BHU</h4>
+                    <p>Login page design with HTML, CSS & Javascript. Realtime Database, No SQL databases fro data collection.</p>
+                    <a href="https://ecell-tech-git-main-aastha-shettys-projects.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://media.licdn.com/dms/image/D4D22AQGS_FqBKJhUtw/feedshare-shrink_800/0/1689162083839?e=2147483647&v=beta&t=Qqe6ltq_HppMsBWIqt-9b0mE7CpaWtm8D9lNJzyH5-k" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Inter-Share</h4>
+                    <p>Supply chain analysis of Godrej Agrovet</p>
+                    <a href="https://drive.google.com/file/d/1-YKwk2IlLx_KpR3Uok6_qPSaXHU-D93F/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://logosandtypes.com/wp-content/uploads/2021/01/Myntra.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Myntra</h4>
+                    <p>Introduced My 3D-Avatar and Tribe chat for enhancing GenZ fashion experience</p>
+                    <a href="https://drive.google.com/file/d/1QdqtfvOPqQQSfhPvUdY7497qw9F_UWdv/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container" id="achiev">
+        <h2 class="heading">Valuable <span>Achievments</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-654a4454e63f2_pmxlogo.png?d=200x200" alt="">
+                        <h3>National Finalist</h3>
+                        <p> Finalist in PMx IIT Guwahati among 2100+ teams in India’s Largest Product Management Case Competition</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4pk97asMkrxq47KtPuhB2vEbuEBgidw7GA&s" alt="">
+                        <h3>1st Runner-Up</h3>
+                        <p> Silver Medal in Basketball Championship(W) at Spardha’23, competing against 20 teams from across the nation.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="data:image/png;base64,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" alt="">
+                        <h3>Aagman Solo Dance 1st Runner-Up</h3>
+                        <p> 1st Runner-up at Aagman Intra-Freshers Solo Dance Competition, competing against 20+ participants</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" id="userForm">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email Address" id="em">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="no">
+                <input type="text" placeholder="Email Subject" id="ems">
+            </div>
+            <textarea id="msg" cols="30" rows="10" placeholder="Your Message" ></textarea>
+            <button id="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+        <p>Coded <i class="bx bx-code-alt"></i> by Aastha Shetty</p>
+        </div>
+        <div class="footer-iconTop">
+           
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+        import { getDatabase, ref, set, get, child} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js";
+
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyDgPfSXdMUZM7lrTQgrYgf7fiDxbkK43SY",
+          authDomain: "portfolio-9c1e6.firebaseapp.com",
+          projectId: "portfolio-9c1e6",
+          storageBucket: "portfolio-9c1e6.appspot.com",
+          messagingSenderId: "620309249385",
+          appId: "1:620309249385:web:02ff2c47b1448a2a1e91f8"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+        document.getElementById("submit").addEventListener('click', function(e){
+
+            e.preventDefault();
+
+            const message = document.getElementById('msg').value;
+
+            set(ref(db, 'user/' + document.getElementById("name").value), {
+                username: document.getElementById("name").value,
+                email: document.getElementById("em").value,
+                mobile: document.getElementById("no").value,
+                emailsub: document.getElementById("ems").value,
+                message: message,
+
+            });
+            alert("Login Successful  !")
+            document.getElementById("userForm").reset();
+        })
+      </script>
+    
+</body>
+
+</html>
